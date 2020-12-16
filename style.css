@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+header, h1, h2, p, form, label, article, div, main {
+  text-align: center;
+  margin: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  line-height:20px;
+  font-family: 'Vesper Libre', serif;
+}
+
+h1 {
+  font-size: 25px;
+  color: #BAABBD;
+}
+
+h2 {
+  font-size: 20px;
+  color: #BAABBD;
+}
+
+body {
+  background-color: #3D5A80;
+}
+p {
+  color: #8EE3DF;
+  font-size: 13px;
+}
+
+img {
+  width:200px;
+  border-radius: 30px;
+  align-self: center;
+  margin: 0px 5px 0px 5px; 
+  padding: 10px;
+}
+
+iframe {
+  align-self: center;
+  margin: 0px 5px 0px 5px;
+}
+
+form label {
+  color: #8EE3DF;
+  font-family: 'Vesper Libre', serif;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+form textarea {
+  height: 4.75rem;
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+button {
+  display: inline-block;
+  font-family: 'Vesper Libre', serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #7C839F;
+  border-color: #BAABBD;
+  color: #8EE3DF
+}
+
+.wrapper {
+  margin: 10px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+}
+
+.item {
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a:link      {color: #8EE3DF;}
+a:visited   {color: white;}
+a:hover     {color: wheat;}
+a:active    {color: azure;}
+
+@media screen and (min-width: 660px) {
+  .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+}
